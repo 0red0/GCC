@@ -25,7 +25,12 @@ html {
 body {
    margin: 0;
 }
-
+ul,
+li {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
 /**
  * Render the `main` element consistently in IE.
  */
@@ -77,6 +82,8 @@ pre {
 
 a {
    background-color: transparent;
+   text-decoration: none;
+   color: inherit;
 }
 
 /**
